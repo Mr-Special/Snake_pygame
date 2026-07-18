@@ -71,7 +71,7 @@ BLOCK_SIZE = 50
 FONT = pygame.font.SysFont("Arial", BLOCK_SIZE*2)
 
 screen = pygame.display.set_mode((800, 800))
-pygame.display.set_caption("Snake!")
+pygame.display.set_caption("Snake Game!")
 clock = pygame.time.Clock()
 
 class Snake:
